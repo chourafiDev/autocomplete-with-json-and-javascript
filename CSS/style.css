@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #333;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    position: relative;
+}
+
+h2::before{
+    content: "";
+    background-color: aliceblue;
+    width: 30%;
+    height: 4px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: -50%;
+    left: 30%;
+}
